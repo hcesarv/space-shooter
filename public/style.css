@@ -29,10 +29,13 @@ body {
 .start-button {
   position: relative;
   color: white;
-  top: 7.5rem;
+  top: 7rem;
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
+}
+.start-button h1 {
+  margin: 0
 }
 
 .player-shooter {
