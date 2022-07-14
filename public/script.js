@@ -142,7 +142,7 @@ function gameOver() {
   let lasers = document.querySelectorAll('.laser');
   lasers.forEach((laser) => laser.remove());
   setTimeout(() => {
-    alert('game over!');
+    alert('Game Over!');
     yourShip.style.top = "250px";
     startButton.style.display = "block";
     instructionsText.style.display = "block";
